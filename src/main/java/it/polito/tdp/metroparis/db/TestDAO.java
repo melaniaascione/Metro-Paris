@@ -15,6 +15,7 @@ public class TestDAO {
 			
 			System.out.println(dao.readFermate()) ;
 			System.out.println(dao.readLinee()) ;
+			//System.out.println(dao.trovaCollegate(null, null))
 
 		} catch (Exception e) {
 			throw new RuntimeException("Test FAILED", e);
